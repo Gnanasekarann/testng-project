@@ -87,7 +87,7 @@ public class NewTest extends BaseElements {
 		webElement.sendKeys("1000");
 		driver.findElement(By.linkText("Update")).click();
 		driver.findElement(By.linkText("Empty Cart")).click();
-	  	driver.quit();
+	  	driver.close();
 }
  
 }
