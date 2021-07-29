@@ -88,7 +88,6 @@ public class NewTest extends BaseElements {
 		driver.findElement(By.linkText("Update")).click();
 		driver.findElement(By.linkText("Empty Cart")).click();
 	  	driver.close();
-	  
 	  	System.out.println("The END");
 }
  
